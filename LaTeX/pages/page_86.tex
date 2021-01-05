@@ -1,0 +1,84 @@
+\item \textit{Myth 2}: HSI means including the newest technology
+and equipment: It may be really cool, but applying the
+latest advancements may actually lead to slower performance and higher error rates on critical tasks.
+\item \textit{Myth 3}: HSI should be performed at the end of a program: That is the worst time to address HSI. The cost
+of incorporating changes recommended by Human
+Factors Engineers late in the design phase or even later
+during implementation is far more costly than incorporating those changes during the System Definition
+and analysis phases.
+\item \textit{Myth 4}: Anyone can do HSI: Most systems, especially
+large systems, should require the participation of experienced professionals in the areas of human factors,
+Industrial Engineering, psychology, Software Design,
+and other related skills. HSI is a multidisciplinary profession and, like most areas of engineering, there is a
+significant body of knowledge that must be acquired.
+Their expertise should be applied to help conduct
+System Definition, task analysis, hardware and software user interface design, prototyping, test and evaluation, and development of user documentation and
+training materials.
+\item \textit{Myth 5}: We can just train around HSI problems: There
+is a long history of trying to use training to compensate for poorly designed user interfaces such as a green
+light meaning “Stop” or pushing a lever down when
+you want to go up. Good training is important, but it
+is not a substitute for good System Design.
+\item \textit{Myth 6}: With automation, we don’t need to worry
+about HSI: Actually, the opposite is usually true.
+Experience with automated systems over the past 30
+years has shown that, in many systems, automation
+can make the user’s job more complicated and prone
+to errors.
+\item \textit{Myth 7}: HSI costs too much: Applying HSI techniques
+in a timely manner will save the project money by
+avoiding extensive and expensive rework later—especially during sustainment.
+\end{itemize}
+
+Lessons Learned. I once spent a year as the
+Software Safety Engineer on the launcher subsystem of a major missile defense program.
+Because of the variety of environmental and situational variables, the launching required a soldier
+technician to push a sequential series of buttons
+and controls and then leave the immediate area
+prior to the actual launch to avoid being roasted.
+Figuring out the proper sequence was not that
+difficult. However, making absolutely 100\% sure that hitting the \textit{wrong sequence} of buttons would
+\textit{not cause a misfire}, resulting in the death of the
+technician, was very difficult. It took the team
+of System Engineers that I worked with much
+longer than originally planned to check out every
+possible combination of a wrong sequence. The
+lesson here is to make sure you do not underestimate the importance of the Human Systems
+Integration function. Also, it is always a good
+idea to have a cash \textit{management reserve for unexpected tasks} that must be performed and likely to
+take longer than expected.
+
+One example of an extreme violation of HSI principles
+was a principal cause of John Denver’s deadly crash of his
+experimental airplane in 1997. The builder of the plane
+failed to follow standard location protocols for the fuel tank
+change switch. Rather than placement where a pilot could
+easily reach the switch, it was located behind the pilot’s left
+shoulder, requiring a turning motion that could have, and
+did have, fatal results. Ignoring HSI considerations can have
+catastrophic consequences.
+
+\subsection{Privacy Protection}
+
+Privacy Critical requirements are those requirements on SIs
+and SUs whose failure may lead to a compromise of private
+personal data such as training scores or personnel evaluations. Each software-related \textit{Privacy Critical requirement}
+identified should be documented in the security and privacy
+protection requirements section of the SRS and identified by
+a unique product identifier.
+
+\subsection{Dependability, Reliability, Maintainability and Availability}
+System Critical Software (SCS) was described in Subsection
+1.8.1 as a \textit{class} of software \textit{required} for implementation of a
+portion of the system functionality allocated to software.
+
+\textbf{Failure Modes, Effects and Critically Analysis
+(FMECA).} System Critical Software functions can be more
+easily managed and tracked if a FMECA, or a similar process by any other name, is performed for all new or modified
+SCS functions. FMECA is a comprehensive systematic analytical method to identify potential failure conditions and to
+contribute to the improvement of designs for products and
+systems to avoid those conditions. It has been used for hardware since the 1940s by the FAA, the auto industry, military
+and space systems. FMECA can, and should, be expanded
+to include software and human interaction considerations.
+Also, a list of SIs and SUs that are System Critical should be
+created and maintained.

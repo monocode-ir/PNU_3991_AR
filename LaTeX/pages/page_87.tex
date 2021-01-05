@@ -1,0 +1,98 @@
+\textbf{Software Dependability}. Dependability is the sum
+result of effective strategies for reliability, maintainability
+and availability (RMA) and the SDP should describe the
+overall approach to develop these strategies. Software RMA
+practices must be incorporated throughout all software
+development activities; they provide the building blocks for
+dependability. Effective strategies for RMA also helps to
+ensure that software meets system requirements with minimum risks, maintains the integrity of the Software Design,
+and minimizes life cycle costs.
+
+\textbf{Software Reliability.} Software reliability models should
+be used to assist in making predictions about the software
+system expected failure rates. The reliability tasks must be
+integrated with Quality Assurance, Product Evaluations,
+Maintainability, and other Engineering activities to avoid
+duplication and provide a cost-effective program. Software
+reliability should involve detection, reporting, quantification, and correction of software deficiencies throughout all
+design, development and testing activities.
+
+\textbf{Software Maintainability.} There are two major aspects
+of software maintainability: software \textit{restorability} and software \textit{reparability}:
+
+\begin{itemize}
+	\renewcommand{\labelitemi}{\scriptsize$\blacksquare$}
+	\item Software restorability is defined as the process of
+	restoring the software to an operational state after the
+	occurrence of hardware or software failures. Ineffective
+	software restorability can be a large contributor to downtime and thus can significantly affect system availability.
+	The need for rapid software restorability is a major driver
+	of the software architecture and design task.
+	\item Development of maintainable software, from a software reparability perspective, involves planning and
+	establishing the software development methodology,
+	environment, standards, and processes with an objective of making Software Maintenance changes efficiently and effectively (e.g., not requiring an engine
+	disassembly to change the oil).
+\end{itemize}
+
+Some methodologies, such as Object-Oriented Design,
+development and programming, may produce softwarerelated products that are more maintainable than other
+approaches. The design must be captured and retained in
+the Software Engineering tools and subject to Configuration
+Management (CM) processes. Similarly, the software CM
+tools provide support to Software Maintenance needs. Other
+tactics that can be described in the SDP to improve maintainability may include:
+
+\begin{itemize}
+	\renewcommand{\labelitemi}{\scriptsize$\blacksquare$}
+	\item The Software Development Environment (SDE),
+	covered in Section 9.1, must be sized to include sufficient capacity to support post-deployment Software
+	Support requirements, thus promoting long-term
+	maintainability.
+	\item Software standards must be established for each programming language to ensure that consistent programming styles are applied by all Developers and that the
+	software and supporting documentation are complete
+	and understandable.
+	\item The Software Product Evaluations should assess compliance with the standards to ensure that they are consistently applied.
+\end{itemize}
+
+\textbf{System Availability.} A high availability rate for access
+to the system is the by-product of effective RMA practices
+as well as accurate estimation of user needs. By performing
+modeling and trend analysis, based on historical trend data
+and collected metrics, software reliability and availability
+can be predicted and the necessary Corrective Actions taken
+to achieve RMA and system requirements.
+
+\subsection{Assurance of Other System Critical requirements}
+
+Critical software requirements should be tracked and monitored throughout all the software development activities just
+like other software requirements. However, in addition to
+the standard testing and quality assurance procedures for
+other software requirements, the SwIPT should follow an
+assurance strategy designed to ensure that hazardous or compromised conditions are eliminated or minimized for each
+development activity. This strategy should be to:
+
+\begin{itemize}
+	\renewcommand{\labelitemi}{\scriptsize$\blacksquare$}
+	\item Identify and document critical requirements in the
+	appropriate SRS sections.
+	\item Document the specific Software Units that contribute
+	to these critical requirement.
+	\item Define specific SI testing procedures that execute all
+	affected SUs to determine compliance.
+	\item Execute the security and privacy testing procedures
+	at each SI build when affected Security Critical and
+	Privacy Critical SUs have changed.
+	\item Execute the safety-related test cases at each SI build for
+	SIs with Safety Critical SUs, even if the units have not
+	changed.
+	\item Update safety analysis, models and modeling results at
+	any time as required.
+\end{itemize}
+
+The CSwE and SQA should review the procedures followed by the SwIPT and the products produced for critical requirements compliance as part of the normal reviews
+of each development activity. The CSwE should focus on
+identifying evidence that the general strategy stated above
+is being implemented. SQA should evaluate the process of
+performing the critical requirements testing, the successful
+completion of the testing, and the proper documentation of
+the results.
