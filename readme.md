@@ -13,11 +13,11 @@
 
 - [SOP](https://monocode-ir.github.io/SOP/) 
 
-- [JavaScript Certificate](https://github.com/monocode-ir/PNU_3991_AR/cert/certificate.pdf)
+- [JavaScript Certificate](https://github.com/monocode-ir/PNU_3991_AR/tree/main/cert/certificate.pdf)
 
-- [LaTex](https://github.com/monocode-ir/PNU_3991_AR/LaTeX)
+- [LaTex](https://github.com/monocode-ir/PNU_3991_AR/tree/main/LaTeX)
 
-
+-----
 
 
 1. G-SPM-02
