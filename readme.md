@@ -27,7 +27,7 @@
 - [خلاصه ارزیابی بخش عمومی](https://github.com/monocode-ir/PNU_3991_AR/blob/main/Assessment/17_GeneralSection_CheckList_AR_3991.pdf)
 
 ##  بخش دروس ارشد
-- [خلاصه ارزیابی درس_مدیریت پروژه های نرم افزاری](https://github.com/monocode-ir/PNU_3991_AR/blob/main/Assessment/17_SoftwareProjectManagement_CheckList_AR_3991)
+- [خلاصه ارزیابی درس_مدیریت پروژه های نرم افزاری](https://github.com/monocode-ir/PNU_3991_AR/blob/main/Assessment/17_SoftwareProjectManagement_CheckList_AR_3991.pdf)
 -----
 
 1. G-SPM-02
